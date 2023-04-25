@@ -23,7 +23,7 @@ class Video:
 
 
         except (HttpError, IndexError):
-            print(f'Ошибка ввода ID Video: ')
+            print(f'Error ID Video: ')
             self.title = None
             self.view_count = None
             self.like_count = None
